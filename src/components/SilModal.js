@@ -1,7 +1,6 @@
-import React from "react"
+import React, { useState } from "react"
 import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
-import { useState } from "react/cjs/react.development"
 import { Button,  Modal } from 'semantic-ui-react'
 import { yaziSil } from "../actions"
 
