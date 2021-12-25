@@ -1,9 +1,6 @@
-import axios from "axios";
-import React, { useEffect } from "react";
+import React, { useEffect,useState } from "react";
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router-dom";
-import { useState } from "react/cjs/react.development";
-import { yaziDuzenle, yaziEkle } from "../actions";
+import { useNavigate } from "react-router-dom";import { yaziDuzenle, yaziEkle } from "../actions";
 
 const YaziFormu = (props) => {
     const navigate = useNavigate();
