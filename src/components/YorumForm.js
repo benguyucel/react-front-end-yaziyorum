@@ -46,7 +46,7 @@ export const YorumForm = (props) => {
     }}>
       <div className="field">
         <label>Adınız</label>
-        <input name="display_name" placeholder="adınız"
+        <input name="display_name" placeholder="adınız" 
           onChange={handleOnChange} value={yorumForm.display_name} />
       </div>
       <div className="field"><label>

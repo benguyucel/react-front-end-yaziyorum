@@ -1,8 +1,7 @@
-import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import { api } from "../api/api";
-import YaziFormu from "../components/YaziFormu";
+import { YorumForm } from "./YorumForm";
 const YaziBaslangic = {
     title: "",
     content: ""
@@ -18,7 +17,7 @@ const YorumEditFormu = () => {
     return (
         <React.Fragment>
             <h1>Yazı Düzenleme</h1>
-            <YorumFormu yazi={yazi} />
+            <YorumForm yazi={yazi} />
         </React.Fragment>
     )
 }

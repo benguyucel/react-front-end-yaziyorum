@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import { YorumForm } from "./YorumForm"
 import { YorumListesi } from "./YorumListesi"
 export const YaziYorumlar = (props) => {
